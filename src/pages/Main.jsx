@@ -10,7 +10,7 @@ export default function MainPage() {
   const [{employee, isLoading}, setEmployee, startLoading, endLoading] = usePageSetting();
   return (
     <Layout>
-      <div style={{backgroundColor: '#eeeeee', alignItems: 'center'}}>
+      <div style={{backgroundColor: 'white', alignItems: 'center'}}>
         <img src={chipmunk} alt='다람쥐' style={{  display: 'block', marginLeft: 'auto', marginRight: 'auto', width: '50%'}}/>
       </div>
       {employee.map(value => {
