@@ -1,0 +1,9 @@
+#employee {
+    list-style-type: none;
+    border: 1px solid black; /* Light grey */
+    padding: 0;
+}
+
+#employee > li{
+    border: 1px solid gray; /* Light grey */
+}
