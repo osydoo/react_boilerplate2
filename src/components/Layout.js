@@ -27,7 +27,10 @@ export default function Layout({children}) {
         </button>
         <div id="link-div">
             <Link to={{pathname:'/'}} id='link'>
-                <img src={naver_logo} alt="" id='naver_logo'/>
+                <div id='naver_logo'>
+                    <strong>다람쥐 컴퍼니</strong>
+                </div>
+                {/* <img src={naver_logo} alt="" id='naver_logo'/> */}
             </Link>
         </div>
         <ul id='menu-bar'>
