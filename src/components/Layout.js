@@ -31,10 +31,8 @@ export default function Layout({children}) {
             </Link>
         </div>
         <ul id='menu-bar'>
-            <li><Link to={{pathname:'/'}}>Hello world</Link></li>
-            <li><Link to={{pathname:'/'}}>D2 News</Link></li>
-            <li><Link to={{pathname:'/'}}>D2 Program</Link></li>
-            <li><Link to={{pathname:'/'}}>About D2</Link></li>
+            <li><Link to={{pathname:'/'}}>직원 리스트</Link></li>
+            <li><Link to={{pathname:'/create'}}>신규 등록하기</Link></li>
         </ul>
         <body>
             {children}
